@@ -8,8 +8,8 @@
 
 import UIKit
 
-class SecondViewController: UIViewController, DownSwipeDelegate {
-    func handleDownSwipeGesture() {
+class SecondViewController: UIViewController, BackSwipeDelegate {
+    func handleBackSwipeGesture() {
         self.dismiss(animated: true, completion: nil)
     }
 
@@ -17,7 +17,7 @@ class SecondViewController: UIViewController, DownSwipeDelegate {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.setupDownSwipeGesture()
+        self.setupBackSwipeGesture()
     }
 
 

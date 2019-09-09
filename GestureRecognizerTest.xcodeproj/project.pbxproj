@@ -14,7 +14,7 @@
 		26047EF52326D85500DC4EE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26047EF32326D85500DC4EE6 /* LaunchScreen.storyboard */; };
 		26047EFE2326DA3500DC4EE6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26047EFC2326DA3500DC4EE6 /* SecondViewController.swift */; };
 		26047EFF2326DA3500DC4EE6 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26047EFD2326DA3500DC4EE6 /* SecondViewController.xib */; };
-		26047F032326DCC900DC4EE6 /* DownSwipeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26047F022326DCC900DC4EE6 /* DownSwipeDelegate.swift */; };
+		26047F032326DCC900DC4EE6 /* BackSwipeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26047F022326DCC900DC4EE6 /* BackSwipeDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		26047EF62326D85500DC4EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26047EFC2326DA3500DC4EE6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		26047EFD2326DA3500DC4EE6 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
-		26047F022326DCC900DC4EE6 /* DownSwipeDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownSwipeDelegate.swift; sourceTree = "<group>"; };
+		26047F022326DCC900DC4EE6 /* BackSwipeDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackSwipeDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 		26047F042326DCD100DC4EE6 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
-				26047F022326DCC900DC4EE6 /* DownSwipeDelegate.swift */,
+				26047F022326DCC900DC4EE6 /* BackSwipeDelegate.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -169,7 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26047F032326DCC900DC4EE6 /* DownSwipeDelegate.swift in Sources */,
+				26047F032326DCC900DC4EE6 /* BackSwipeDelegate.swift in Sources */,
 				26047EFE2326DA3500DC4EE6 /* SecondViewController.swift in Sources */,
 				26047EED2326D85200DC4EE6 /* ViewController.swift in Sources */,
 				26047EEB2326D85200DC4EE6 /* AppDelegate.swift in Sources */,

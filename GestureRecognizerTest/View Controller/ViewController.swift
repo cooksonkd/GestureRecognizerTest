@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction func presentSecondViewController(_ sender: Any) {
-//        self.navigationController?.pushViewController(SecondViewController(), animated: true)
         self.present(SecondViewController(), animated: true, completion: nil)
     }
     
