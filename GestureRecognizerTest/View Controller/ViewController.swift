@@ -15,6 +15,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func presentSecondViewController(_ sender: Any) {
+//        self.navigationController?.pushViewController(SecondViewController(), animated: true)
+        self.present(SecondViewController(), animated: true, completion: nil)
+    }
+    
 }
 
